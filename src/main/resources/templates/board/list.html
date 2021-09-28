@@ -9,8 +9,8 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link href="starter-template.css" rel="stylesheet">
-    <title>Hello, Spring Boot!!</title>
+    <link href="starter-template.css" th:href="@{/starter-template.css}" rel="stylesheet">
+    <title>Hello, Board!!</title>
 </head>
 
 <body>
@@ -34,12 +34,8 @@
         </div>  -->
     </nav>
 
-    <div class="col-lg-8 mx-auto p-3 py-md-5">
-        <main>
-            <h1>Main Spring Boot Tutorial</h1>
-            <p class="fs-5 col-md-8">make Web page with Spring Boot<br>
-                Security setting and control data with Spring Security, JPA </p>
-        </main>
+    <div class="container-fluid">
+        <h1>Board</h1>
     </div>
     <!-- Optional JavaScript; choose one of the two! -->
 
